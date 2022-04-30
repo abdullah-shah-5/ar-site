@@ -13,6 +13,14 @@
             height: 500px;
         )
         }
+        .button-space{
+            color: white; 
+            background : black;
+            width: 100%;
+            height: auto;
+            padding: 10px 5px;
+            text-align: center;
+        }
     </style>
 
 </head>
@@ -22,6 +30,10 @@
 
 <!-- Use it like any other HTML element -->
 <model-viewer alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum" src="clock.glb" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="1" camera-controls enable-pan></model-viewer>
+    
+     <button class="button-space" slot="ar-button" id="ar-button">
+    View in your space
+  </button>
     
 </body>
 </html>
